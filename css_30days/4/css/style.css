@@ -1,0 +1,32 @@
+body{
+	width:600px;
+	margin:20px auto;
+	margin-left:20px;
+}
+article img{
+	float: left;
+	margin-right:30px;
+}
+article h2{
+	margin-top:0;
+}
+.preview{
+	float:right;
+	
+	width:210px;
+}
+.meta a{
+	font-style:italic;
+	font-size:20px;
+}
+.meta li:after{
+	content:'\\';
+	padding:0 2px;
+	color:#999;
+}
+.meta li:last-child:after{
+	content:none;
+}
+.meta li{
+	display: inline;
+}

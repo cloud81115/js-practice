@@ -1,0 +1,23 @@
+.wrap{
+	width:80%;
+	margin:auto;
+	
+}
+.content , aside{
+	height:600px;
+}
+.content{
+	width:80%;
+	background: red;
+	float:left;
+}
+aside{
+	background: brown;
+	float:left;
+	width:20%;
+}
+
+aside ul{
+	padding-left:0;
+	list-style: none;
+}
